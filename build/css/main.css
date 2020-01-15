@@ -1,0 +1,311 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain) */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+a {
+  text-decoration: none; }
+
+input[type="text"],
+input[type="button"],
+input[type="submit"] {
+  -webkit-appearance: none;
+  border-radius: 0; }
+
+html, body {
+  max-width: 100%;
+  height: 100%; }
+
+body {
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  color: #999999;
+  font-size: 14px;
+  position: relative;
+  background-color: #eaeff5; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+.width {
+  max-width: 1170px;
+  margin: 0 auto; }
+
+.title__text {
+  font-family: 'ProximaNova-Black', sans-serif;
+  font-size: 48px;
+  color: #fff;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 1.25; }
+
+.title__text.colored {
+  color: #233148; }
+
+.title__sqare {
+  width: 29px;
+  height: 29px;
+  display: block;
+  background-image: url("../img/ico/sqare.png");
+  margin-bottom: 26px;
+  background-repeat: no-repeat;
+  background-position: center;
+  line-height: 1; }
+
+.wow {
+  -webkit-transition: all 5s linear;
+  -o-transition: all 5s linear;
+  transition: all 5s linear; }
+
+.bg-color {
+  width: 100%;
+  height: 1200px;
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #233148; }
+
+.title {
+  padding-top: 132px;
+  margin-bottom: 116px; }
+
+.service {
+  background-image: url("../img/symbol-logo.png");
+  background-repeat: no-repeat;
+  background-position: center 60px; }
+
+.service__wrapp {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 975px;
+  margin: 0 auto 90px auto; }
+  .service__wrapp .service__item {
+    max-width: 420px;
+    margin-bottom: 102px; }
+  .service__wrapp .item__img {
+    width: 48px;
+    margin-bottom: 16px; }
+  .service__wrapp .item__title {
+    font-family: 'ProximaNova-Bold', sans-serif;
+    font-size: 32px;
+    color: #ffffff;
+    line-height: 1;
+    margin-bottom: 44px; }
+  .service__wrapp .item__text {
+    font-family: 'ProximaNova-Light', sans-serif;
+    font-size: 18px;
+    color: #8796ae;
+    line-height: 1.5; }
+
+.download {
+  background-color: #1f64d9;
+  position: relative;
+  z-index: 5;
+  padding-top: 67px;
+  padding-bottom: 86px;
+  margin-right: 19.53125%; }
+  .download .download__body {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin-left: 24.5%; }
+    .download .download__body .content__text {
+      font-family: 'ProximaNova-Extrabld', sans-serif;
+      font-size: 32px;
+      text-transform: uppercase;
+      color: #fff; }
+    .download .download__body .content__bgi {
+      background-image: url(../img/download-img.png);
+      background-position: center center;
+      background-size: contain;
+      width: 245px;
+      display: block;
+      height: 240px;
+      position: absolute;
+      z-index: -1;
+      bottom: 0; }
+    .download .download__body .content__button {
+      position: absolute;
+      bottom: -35px;
+      margin-left: 86px; }
+  .download .item__text {
+    font-family: 'ProximaNova-Regular', sans-serif;
+    font-size: 24px;
+    color: #fff;
+    line-height: 1.5;
+    margin-top: 38px;
+    margin-left: 97px; }
+  .download .item__img {
+    position: absolute;
+    right: 0;
+    top: -20%; }
+  .download .button__link {
+    font-family: 'ProximaNova-Bold', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #233148;
+    background-color: #fccf18;
+    width: 390px;
+    text-align: center;
+    padding: 22px 0;
+    display: block;
+    border: 1px solid transparent;
+    -webkit-box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+            box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+    outline: 1px solid;
+    outline-color: rgba(252, 207, 24, 0.5);
+    outline-offset: 0px;
+    text-shadow: none;
+    -webkit-transition: all 850ms cubic-bezier(0.19, 1, 0.22, 1);
+    -o-transition: all 850ms cubic-bezier(0.19, 1, 0.22, 1);
+    transition: all 850ms cubic-bezier(0.19, 1, 0.22, 1); }
+    .download .button__link:hover {
+      border: 1px solid #fccf18;
+      -webkit-box-shadow: inset 0 0 20px rgba(252, 207, 24, 0.5), 0 0 20px rgba(255, 255, 255, 0.2);
+              box-shadow: inset 0 0 20px rgba(252, 207, 24, 0.5), 0 0 20px rgba(255, 255, 255, 0.2);
+      outline-color: rgba(255, 255, 255, 0);
+      outline-offset: 60px;
+      text-shadow: 1px 1px 1px rgba(36, 58, 72, 0.47); }
+
+@media screen and (max-width: 1720px) {
+  .download {
+    margin-right: 8%; }
+  .download .download__body {
+    margin-left: 14.5%; } }
+
+@media screen and (max-width: 1480px) {
+  .download {
+    margin-right: 4%; }
+  .download .item__img {
+    -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+            transform: scale(0.8); }
+  .download .download__body {
+    margin-left: 4.5%; } }
+
+@media screen and (max-width: 1170px) {
+  .width {
+    max-width: 100%;
+    padding-left: 30px;
+    padding-right: 30px; } }
+
+@media screen and (max-width: 1180px) {
+  .wow {
+    visibility: visible !important; }
+  .download .item__img {
+    -webkit-transform: scale(0.6);
+        -ms-transform: scale(0.6);
+            transform: scale(0.6);
+    right: -140px;
+    top: -40%; } }
+
+@media screen and (max-width: 768px) {
+  html, body {
+    overflow-x: hidden; }
+  .bg-color {
+    height: 1500px; }
+  .title {
+    padding-top: 86px;
+    margin-bottom: 42px; }
+  .title__text {
+    font-size: 30px; }
+  .service__wrapp .item__img {
+    margin-bottom: 12px; }
+  .service__wrapp .item__title {
+    margin-bottom: 34px;
+    font-size: 22px; }
+  .service__wrapp .item__text {
+    font-size: 16px; }
+  .service__wrapp .service__item {
+    margin-bottom: 38px; }
+  .download {
+    margin-right: 0;
+    padding-top: 190px; }
+  .download .download__body {
+    margin-left: 30px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .download .button__link {
+    width: 275px; }
+  .download .item__img {
+    -webkit-transform: scale(0.6);
+    -ms-transform: scale(0.6);
+    transform: scale(1);
+    right: -240px;
+    top: -140px; }
+  .download .item__text {
+    margin-left: 0;
+    font-size: 16px; }
+  .download .download__body .content__bgi {
+    left: 0; }
+  .download .download__body .content__button {
+    margin-left: 0;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+        -ms-transform: translate(-50%, 0);
+            transform: translate(-50%, 0); } }
